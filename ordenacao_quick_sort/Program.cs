@@ -1,4 +1,5 @@
 ﻿//com conceitos aprendidos de DC como base, dividir para conquistar!
+//usando recursividade
 
 int[] array = { 9, 3, 7, 1, 8, 2, 5 };
 
@@ -14,7 +15,7 @@ int[] QuickSort(int[] array)
     List<int> maiores = new();
     List<int> menores = new();
 
-    //condicao de parada..., array com tamanho de um nao precisa ser ordenado !!
+    //condicao de parada(caso bae)..., array com tamanho de um nao precisa ser ordenado !!
     if (array.Length <= 1)
         return array;
 
