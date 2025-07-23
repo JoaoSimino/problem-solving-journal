@@ -38,6 +38,7 @@ public class Solution
         {
             char c = str[i];
 
+            //minha maneira inicial ate mais performatica!!!
             //if (ultimasOcorrencias.ContainsKey(c) && ultimasOcorrencias[c] >= inicio) 
             //{
             //    //meu inicio nao deve ser daqui pra frente!, deve ser da posicao de de primeira ocorrencia de str[i] para frente
